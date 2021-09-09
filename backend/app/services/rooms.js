@@ -6,19 +6,10 @@ import request from "request";
 const roomFilePath = "../file/matrix.room.web.json";
 
 const createRoomFileSync = () => {
-  const niceNames = [
-    "Sala de espera",
-    "Sala de aula 1",
-    "Sala de aula 2",
-    "Sala de aula 3",
-    "Sala de aula 4",
-    "Sala de aula 5",
-  ];
-
 
   const roomsData = [{
     id: uuid(),
-    name: "Wating room"
+    name: "Waiting room"
   },{
     id: uuid(),
     name: "Room 1"
