@@ -35,6 +35,10 @@ const createRoomFileSync = () => {
     id: uuid(),
     name: "Canada",
     externalMeetUrl: "https://whereby.com/room3-canada"
+  },{
+    id: uuid(),
+    name: "Room for tests ",
+    externalMeetUrl: "https://meet.google.com/qrt-bype-gox"
   }];
 
   // disable meeting for The Dock
