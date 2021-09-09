@@ -16,10 +16,26 @@ const createRoomFileSync = () => {
   ];
 
 
-  const roomsData = niceNames.map((name) => ({
+  const roomsData = [{
     id: uuid(),
-    name,
-  }));
+    name: "Wating room"
+  },{
+    id: uuid(),
+    name: "Room 1"
+  },{
+    id: uuid(),
+    name: "Room 2"
+  },{
+    id: uuid(),
+    name: "Room 3"
+  },{
+    id: uuid(),
+    name: "Room 4"
+  },{
+    id: uuid(),
+    name: "Canada",
+    externalMeetUrl: "https://whereby.com/room3-canada"
+  }];
 
   // disable meeting for The Dock
   roomsData[0].disableMeeting = true;
